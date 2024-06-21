@@ -45,7 +45,7 @@ const ModalComponent = (props: IModalProps) => {
                         <div className="grid grid-cols-3 px-5">
 
                             <div className="col-span-1 pt-6">
-                                <Image src={charImg} alt="Harry potter charater image" width={500} height={500} className="imageSize" />
+                                <Image src={charImg} alt={props.charData.name} width={500} height={500} className="imageSize" />
                             </div>
 
                             <div className="col-span-2">
