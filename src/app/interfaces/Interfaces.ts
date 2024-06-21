@@ -24,3 +24,9 @@ export interface IPotterName{
     alive: boolean;
     image: string;
 }
+
+export interface IModalProps{
+    setIsModalOpen(arg0: boolean): void;
+    // isOpen: boolean;
+    charData: IPotterName;
+}

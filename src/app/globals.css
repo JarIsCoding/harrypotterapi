@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #F8F6F3;
+}
+
+.drop{
+  box-shadow: 0 0 6px rgba(178, 102, 178, 0.5);
+}
+
+.imageSize{
+  width: 425px !important;
+  height: 500px !important;
+  border-radius: 10px;
+}
+
+/* .hAnim{
+  cursor: progress;
+  animation: hoverAnim 5s infinite linear normal;
+}
+
+@keyframes hoverAnim {
+  0%{
+      transform: rotate(0);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+} */
