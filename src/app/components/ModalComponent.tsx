@@ -30,7 +30,7 @@ const ModalComponent = (props: IModalProps) => {
 
     const aliveFunc = () => {
         if (alive) {
-            setLiveStatus('Alive')
+            setLiveStatus('Still Alive')
         } else {
             setLiveStatus('Deceased')
         }
