@@ -33,3 +33,18 @@ body{
       transform: rotate(360deg);
   }
 } */
+
+.hoverBig:hover{
+  animation: sizeUp .2s 1 linear normal;
+  transform: scale(1.1);
+  background-color: white;
+}
+
+@keyframes sizeUp {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}

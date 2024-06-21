@@ -35,7 +35,7 @@ export default function Home() {
       <div className="grid grid-cols-4 gap-2 text-center px-2">
         {showNames && showNames.length > 0 ? (
           showNames.map((name: IPotterName, index) => (
-            <div key={index} className="p-10 border rounded-lg border-violet-500 cursor-pointer drop" onClick={() => openModal(name)}>
+            <div key={index} className="p-10 border rounded-lg border-violet-500 cursor-pointer drop hoverBig" onClick={() => openModal(name)}>
               {name.name}
             </div>
           ))
